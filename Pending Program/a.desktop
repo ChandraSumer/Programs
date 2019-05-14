@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=jupyter notebook1
+Exec=bash -c 'jupyter notebook;$SHELL'
+Terminal=true

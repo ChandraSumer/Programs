@@ -1,0 +1,7 @@
+#!/bin/bash
+
+x-terminal-emulator --window-with-profile=APP -e ls 
+gnome-terminal xmodmap -e 'keycode 90='
+
+
+

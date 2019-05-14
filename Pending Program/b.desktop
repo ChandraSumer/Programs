@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Key Disable
+Exec=xmodmap -e 'keycode 90='
+Terminal=true
+Type=Application

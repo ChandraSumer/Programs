@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Jupyter Notebook
+Exec=anaconda-navigator
+Terminal=true
+Type=Application
+StartupWMClass=itunes.exe

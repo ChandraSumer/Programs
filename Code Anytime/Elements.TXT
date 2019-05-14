@@ -1,0 +1,24 @@
+def ACM ():
+    a=input("Enter Text To Be Searched-")
+    a=a.upper()
+    lis=["H","HE","LI","BE","B","C","N","O","F","NE","NA","MG","AL","SI","P","S","CL","AR","K","CA","SC","TI","V","CR","MN","FE","CO","NI","CU","ZN","GA","GE","AS","SE","BR","KR","RB","SR","Y","ZR","NB","MO","TC","RU","RH","PD","AG","CD","IN","SN","SB","TE","I","XE","CS","BA","LA","CE","PR","ND","PM","SM","EU","GD","TB","DY","HO","ER","TM","YB","LU","HF","TA","W","RE","OS","IR","PT","AU","HG","TL","PB","BI","PO","AT","RN","FR","RA","AC","TH","PA","U","NP","PU","AM","CM","BK","CF","ES","FM","MD","NO","LR","RF","DB","SG","BH","HS","MT","DS","RG","CN","NH","FL","MC","LV","TS","OG","G","L","T","Q","D","A","E","J","M","X","R","Z","0","1","2","3","4","5","6","7","8","9"," ","!","@","#","$","%","&","*","-","+","_"]
+    b=len(lis)
+    d=len(a)
+    c=0
+    while (c<d):
+        for i in range(0,b):
+            if (a[c:c+2]==lis[i]):
+                x=(lis[i])
+                x=x.title()
+                print (x)
+                print ("")
+                c=c+2
+                break
+            elif (a[c]==lis[i]):
+                x=(lis[i])
+                print (x)
+                print ("")
+                c=c+1
+                break
+
+            
